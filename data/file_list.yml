@@ -1574,15 +1574,15 @@ Audio/CollectBgmPlayer.o:
     label:
     - _ZN16CollectBgmPlayerC1Ev
     - _ZN16CollectBgmPlayerC2Ev
-    status: NotDecompiled
+    status: Matching
   - offset: 0x0089fc
     size: 8
     label: _ZN16CollectBgmPlayer4initEPKN2al15IUseAudioKeeperE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x008a04
     size: 4
     label: _ZN16CollectBgmPlayer7prepareEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x008a08
     size: 248
     label: _ZN16CollectBgmPlayer5startEPKcS1_
@@ -1598,7 +1598,7 @@ Audio/CollectBgmPlayer.o:
   - offset: 0x008bc8
     size: 4
     label: _ZN16CollectBgmPlayerD0Ev
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x008bcc
     size: 4
@@ -46880,19 +46880,19 @@ Event/EventFlowNodeSessionWaitMusician.o:
     label:
     - _ZN32EventFlowNodeSessionWaitMusicianC1EPKc
     - _ZN32EventFlowNodeSessionWaitMusicianC2EPKc
-    status: NotDecompiled
+    status: Matching
   - offset: 0x1b914c
     size: 68
     label: _ZN32EventFlowNodeSessionWaitMusician4initERKN2al21EventFlowNodeInitInfoE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x1b9190
     size: 68
     label: _ZNK32EventFlowNodeSessionWaitMusician9getNextIdEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x1b91d4
     size: 12
     label: _ZN32EventFlowNodeSessionWaitMusician5startEv
-    status: NotDecompiled
+    status: NonMatchingMajor
     lazy: true
 Event/EventFlowNodeSetDemoInfoDemoName.o:
   '.text':
@@ -80774,55 +80774,55 @@ MapObj/RadioCassette.o:
   - offset: 0x2eb518
     size: 208
     label: _ZN13RadioCassetteC2EPKc
-    status: NotDecompiled
+    status: Wip
   - offset: 0x2eb5e8
     size: 220
     label: _ZN13RadioCassetteC1EPKc
-    status: NotDecompiled
+    status: Wip
   - offset: 0x2eb6c4
     size: 1032
     label: _ZN13RadioCassette4initERKN2al13ActorInitInfoE
-    status: NotDecompiled
+    status: Wip
   - offset: 0x2ebacc
     size: 4
     label: _ZN13RadioCassette6appearEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x2ebad0
     size: 136
     label: _ZN13RadioCassette7controlEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x2ebb58
     size: 64
     label: _ZN13RadioCassette12attackSensorEPN2al9HitSensorES2_
-    status: NotDecompiled
+    status: Matching
   - offset: 0x2ebb98
     size: 808
     label: _ZN13RadioCassette10receiveMsgEPKN2al9SensorMsgEPNS0_9HitSensorES5_
-    status: NotDecompiled
+    status: Wip
   - offset: 0x2ebec0
     size: 284
     label: _ZN13RadioCassette7exeWaitEv
-    status: NotDecompiled
+    status: Wip
   - offset: 0x2ebfdc
     size: 96
     label: _ZN13RadioCassette7endWaitEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x2ec03c
     size: 424
     label: _ZN13RadioCassette16exeReactionNoiseEv
-    status: NotDecompiled
+    status: Wip
   - offset: 0x2ec1e4
     size: 272
     label: _ZN13RadioCassette19exeReactionNoiseEndEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x2ec2f4
     size: 264
     label: _ZN13RadioCassette17exeReactionTuningEv
-    status: NotDecompiled
+    status: Wip
   - offset: 0x2ec3fc
     size: 332
     label: _ZN13RadioCassette25exeStartSpecialCollectBgmEv
-    status: NotDecompiled
+    status: Wip
   - offset: 0x2ec548
     size: 112
     label: ''
@@ -80838,32 +80838,32 @@ MapObj/RadioCassette.o:
   - offset: 0x2ec5d8
     size: 8
     label: _ZNK12_GLOBAL__N_120RadioCassetteNrvWait7executeEPN2al11NerveKeeperE
-    status: NotDecompiled
+    status: Matching
     guess: true
   - offset: 0x2ec5e0
     size: 96
     label: _ZNK12_GLOBAL__N_120RadioCassetteNrvWait12executeOnEndEPN2al11NerveKeeperE
-    status: NotDecompiled
+    status: Matching
     guess: true
   - offset: 0x2ec640
     size: 8
     label: _ZNK12_GLOBAL__N_130RadioCassetteNrvReactionTuning7executeEPN2al11NerveKeeperE
-    status: NotDecompiled
+    status: Matching
     guess: true
   - offset: 0x2ec648
     size: 8
     label: _ZNK12_GLOBAL__N_129RadioCassetteNrvReactionNoise7executeEPN2al11NerveKeeperE
-    status: NotDecompiled
+    status: Matching
     guess: true
   - offset: 0x2ec650
     size: 8
     label: _ZNK12_GLOBAL__N_138RadioCassetteNrvStartSpecialCollectBgm7executeEPN2al11NerveKeeperE
-    status: NotDecompiled
+    status: Matching
     guess: true
   - offset: 0x2ec658
     size: 8
     label: _ZNK12_GLOBAL__N_132RadioCassetteNrvReactionNoiseEnd7executeEPN2al11NerveKeeperE
-    status: NotDecompiled
+    status: Matching
     guess: true
 MapObj/Radish.o:
   '.text':
@@ -100432,15 +100432,15 @@ Npc/CityManRhythmInfo.o:
     label:
     - _ZN17CityManRhythmInfoC1EPN2al9LiveActorEPKhbf
     - _ZN17CityManRhythmInfoC2EPN2al9LiveActorEPKhbf
-    status: NotDecompiled
+    status: Matching
   - offset: 0x381dfc
     size: 404
     label: _ZN17CityManRhythmInfo12initAnimInfoEPKh
-    status: NotDecompiled
+    status: NonMatchingMajor
   - offset: 0x381f90
     size: 556
     label: _ZN17CityManRhythmInfo6updateEb
-    status: NotDecompiled
+    status: NonMatchingMajor
   - offset: 0x3821bc
     size: 20
     label: _ZN17CityManRhythmInfo9isLoopingEv
@@ -100448,11 +100448,11 @@ Npc/CityManRhythmInfo.o:
   - offset: 0x3821d0
     size: 72
     label: _ZN17CityManRhythmInfo15resetRhythmInfoEf
-    status: NotDecompiled
+    status: Matching
   - offset: 0x382218
     size: 200
     label: _ZN17CityManRhythmInfo10updateAnimEv
-    status: NotDecompiled
+    status: NonMatchingMajor
   - offset: 0x3822e0
     size: 132
     label: _ZN17CityManRhythmInfo21checkSameBeatAnimInfoERNS_11CurAnimInfoEi
@@ -100460,11 +100460,11 @@ Npc/CityManRhythmInfo.o:
   - offset: 0x382364
     size: 32
     label: _ZN17CityManRhythmInfo9getAnimIdEi
-    status: NotDecompiled
+    status: Matching
   - offset: 0x382384
     size: 32
     label: _ZN17CityManRhythmInfo11getAnimBeatEi
-    status: NotDecompiled
+    status: Matching
 Npc/CollectAnimal.o:
   '.text':
   - offset: 0x3823a4
@@ -107028,48 +107028,48 @@ Npc/SessionMayorNpc.o:
   - offset: 0x3c0410
     size: 1084
     label: _ZN15SessionMayorNpc4initERKN2al13ActorInitInfoE
-    status: NotDecompiled
+    status: NonMatchingMajor
   - offset: 0x3c084c
     size: 552
     label: _ZN17SessionMayorParamC2EPN2al9LiveActorE
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x3c0a74
     size: 136
     label: _ZN15SessionMayorNpc8movementEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x3c0afc
     size: 676
     label: _ZN15SessionMayorNpc22initIntroductionCameraERKN2al13ActorInitInfoEPN4sead8PtrArrayI18SessionMusicianNpcEE
-    status: NotDecompiled
+    status: NonMatchingMajor
   - offset: 0x3c0da0
     size: 12
     label: _ZN15SessionMayorNpc12attackSensorEPN2al9HitSensorES2_
-    status: NotDecompiled
+    status: Matching
   - offset: 0x3c0dac
     size: 268
     label: _ZN15SessionMayorNpc10receiveMsgEPKN2al9SensorMsgEPNS0_9HitSensorES5_
-    status: NotDecompiled
+    status: NonMatchingMajor
   - offset: 0x3c0eb8
     size: 228
     label: _ZN15SessionMayorNpc24tryAppearMemberMusiciansEv
-    status: NotDecompiled
+    status: NonMatchingMajor
   - offset: 0x3c0f9c
     size: 564
     label: _ZN15SessionMayorNpc12receiveEventEPKN2al18EventFlowEventDataE
-    status: NotDecompiled
+    status: NonMatchingMajor
   - offset: 0x3c11d0
     size: 8
     label: _ZThn264_N15SessionMayorNpc12receiveEventEPKN2al18EventFlowEventDataE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x3c11d8
     size: 84
     label: _ZN15SessionMayorNpc7exeWaitEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x3c122c
     size: 160
     label: _ZN15SessionMayorNpc11exeReactionEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x3c12cc
     size: 88
     label: ''
@@ -107081,27 +107081,27 @@ Npc/SessionMayorNpc.o:
   - offset: 0x3c132c
     size: 428
     label: _ZN20SessionEventProgress5text_Ei
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x3c14d8
     size: 4
     label: _ZN4sead15FixedSafeStringILi170EED0Ev
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x3c14dc
     size: 240
     label: _ZN4sead15FixedSafeStringILi170EEaSERKNS_14SafeStringBaseIcEE
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x3c15cc
     size: 4
     label: _ZN4sead19FixedSafeStringBaseIcLi170EED0Ev
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x3c15d0
     size: 240
     label: _ZN4sead19FixedSafeStringBaseIcLi170EEaSERKNS_14SafeStringBaseIcEE
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x3c16c0
     size: 128
@@ -107164,7 +107164,7 @@ Npc/SessionMusicianBgmCtrlObj.o:
     lazy: true
   - offset: 0x3c226c
     size: 8
-    label: ''
+    label: '#N_115HostTypeNrvWait7executeEPN2al11NerveKeeperE'
     status: NotDecompiled
   - offset: 0x3c2274
     size: 8
@@ -107377,7 +107377,7 @@ Npc/SessionMusicianNpc.o:
   - offset: 0x3c32e4
     size: 2280
     label: _ZN18SessionMusicianNpc4initERKN2al13ActorInitInfoE
-    status: NotDecompiled
+    status: NonMatchingMajor
   - offset: 0x3c3bcc
     size: 260
     label: ''
@@ -107385,104 +107385,104 @@ Npc/SessionMusicianNpc.o:
   - offset: 0x3c3cd0
     size: 132
     label: _ZNSt3__118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEED1Ev
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x3c3d54
     size: 92
     label: _ZN18SessionMusicianNpc10startEventEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x3c3db0
     size: 72
     label: _ZN18SessionMusicianNpc6appearEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x3c3df8
     size: 128
     label: _ZN18SessionMusicianNpc4killEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x3c3e78
     size: 12
     label: _ZN18SessionMusicianNpc12attackSensorEPN2al9HitSensorES2_
-    status: NotDecompiled
+    status: Matching
   - offset: 0x3c3e84
     size: 360
     label: _ZN18SessionMusicianNpc10receiveMsgEPKN2al9SensorMsgEPNS0_9HitSensorES5_
-    status: NotDecompiled
+    status: Matching
   - offset: 0x3c3fec
     size: 388
     label: _ZN18SessionMusicianNpc12receiveEventEPKN2al18EventFlowEventDataE
-    status: NotDecompiled
+    status: NonMatchingMajor
   - offset: 0x3c4170
     size: 8
     label: _ZThn264_N18SessionMusicianNpc12receiveEventEPKN2al18EventFlowEventDataE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x3c4178
     size: 76
     label: _ZNK18SessionMusicianNpc10judgeQueryEPKc
-    status: NotDecompiled
+    status: Matching
   - offset: 0x3c41c4
     size: 76
     label: _ZThn272_NK18SessionMusicianNpc10judgeQueryEPKc
-    status: NotDecompiled
+    status: Matching
   - offset: 0x3c4210
     size: 12
     label: _ZN18SessionMusicianNpc10endClippedEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x3c421c
     size: 216
     label: _ZN18SessionMusicianNpc7controlEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x3c42f4
     size: 296
     label: _ZN18SessionMusicianNpc20forceControlForDanceEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x3c441c
     size: 144
     label: _ZN18SessionMusicianNpc15controlForDanceEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x3c44ac
     size: 56
     label: _ZNK18SessionMusicianNpc8isJoinedEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x3c44e4
     size: 64
     label: _ZNK18SessionMusicianNpc11isStateWarpEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x3c4524
     size: 12
     label: _ZN18SessionMusicianNpc8doneWarpEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x3c4530
     size: 52
     label: _ZNK18SessionMusicianNpc20isEnableMuteBgmTrackEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x3c4564
     size: 160
     label: _ZN18SessionMusicianNpc22exeWaitNoEventFlowSabiEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x3c4604
     size: 104
     label: _ZN18SessionMusicianNpc18exeWaitNoEventFlowEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x3c466c
     size: 48
     label: _ZN18SessionMusicianNpc7exeWaitEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x3c469c
     size: 184
     label: _ZN18SessionMusicianNpc12exeWarpStartEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x3c4754
     size: 4
     label: _ZN18SessionMusicianNpc7exeWarpEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x3c4758
     size: 12
     label: _ZN18SessionMusicianNpc10exeWarpEndEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x3c4764
     size: 260
     label: _ZN18SessionMusicianNpc11exeReactionEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x3c4868
     size: 236
     label: ''
@@ -107490,7 +107490,7 @@ Npc/SessionMusicianNpc.o:
   - offset: 0x3c4954
     size: 40
     label: _ZN18SessionMusicianNpc11endReactionEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x3c497c
     size: 52
     label: ''
@@ -107507,149 +107507,149 @@ Npc/SessionMusicianNpc.o:
   - offset: 0x3c49e4
     size: 132
     label: _ZThn16_NSt3__118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEED1Ev
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x3c4a68
     size: 140
     label: _ZTv0_n24_NSt3__118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEED1Ev
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x3c4af4
     size: 140
     label: _ZNSt3__118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEED0Ev
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x3c4b80
     size: 140
     label: _ZThn16_NSt3__118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEED0Ev
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x3c4c0c
     size: 148
     label: _ZTv0_n24_NSt3__118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEED0Ev
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x3c4ca0
     size: 52
     label: _ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEED2Ev
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x3c4cd4
     size: 60
     label: _ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEED0Ev
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x3c4d10
     size: 328
     label: _ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE7seekoffExNS_8ios_base7seekdirEj
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x3c4e58
     size: 20
     label: _ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE7seekposENS_4fposI11__mbstate_tEEj
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x3c4e6c
     size: 88
     label: _ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE9underflowEv
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x3c4ec4
     size: 120
     label: _ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE9pbackfailEi
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x3c4f3c
     size: 404
     label: _ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE8overflowEi
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x3c50d0
     size: 108
     label: _ZNK12_GLOBAL__N_126HostTypeNrvWaitNoEventFlow7executeEPN2al11NerveKeeperE
-    status: NotDecompiled
+    status: Matching
     guess: true
   - offset: 0x3c513c
     size: 428
     label: _ZN18SessionMusicianNpc9EventType5text_Ei
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x3c52e8
     size: 4
     label: _ZN4sead15FixedSafeStringILi33EED0Ev
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x3c52ec
     size: 240
     label: _ZN4sead15FixedSafeStringILi33EEaSERKNS_14SafeStringBaseIcEE
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x3c53dc
     size: 4
     label: _ZN4sead19FixedSafeStringBaseIcLi33EED0Ev
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x3c53e0
     size: 240
     label: _ZN4sead19FixedSafeStringBaseIcLi33EEaSERKNS_14SafeStringBaseIcEE
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x3c54d0
     size: 8
     label: _ZNK12_GLOBAL__N_120HostTypeNrvWarpStart7executeEPN2al11NerveKeeperE
-    status: NotDecompiled
+    status: Matching
     guess: true
 Npc/SessionMusicianType.o:
   '.text':
   - offset: 0x3c54d8
     size: 428
     label: _ZN19SessionMusicianType5text_Ei
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x3c5684
     size: 4
     label: _ZN4sead15FixedSafeStringILi62EED0Ev
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x3c5688
     size: 240
     label: _ZN4sead15FixedSafeStringILi62EEaSERKNS_14SafeStringBaseIcEE
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x3c5778
     size: 4
     label: _ZN4sead19FixedSafeStringBaseIcLi62EED0Ev
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x3c577c
     size: 240
     label: _ZN4sead19FixedSafeStringBaseIcLi62EEaSERKNS_14SafeStringBaseIcEE
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x3c586c
     size: 8
     label: _ZNK12_GLOBAL__N_130HostTypeNrvWaitNoEventFlowSabi7executeEPN2al11NerveKeeperE
-    status: NotDecompiled
+    status: Matching
     guess: true
   - offset: 0x3c5874
     size: 16
     label: _ZNK12_GLOBAL__N_118HostTypeNrvWarpEnd7executeEPN2al11NerveKeeperE
-    status: NotDecompiled
+    status: Matching
     guess: true
   - offset: 0x3c5884
     size: 4
     label: _ZNK12_GLOBAL__N_115HostTypeNrvWarp7executeEPN2al11NerveKeeperE
-    status: NotDecompiled
+    status: Matching
     guess: true
   - offset: 0x3c5888
     size: 228
     label: _ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE3strERKNS_12basic_stringIcS2_S4_EE
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x3c596c
     size: 272
     label: _ZNSt3__124__put_character_sequenceIcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x3c5a7c
     size: 296
@@ -107658,22 +107658,22 @@ Npc/SessionMusicianType.o:
   - offset: 0x3c5ba4
     size: 340
     label: _ZNKSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE3strEv
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x3c5cf8
     size: 28
     label: _ZNK2al10FunctorV0MIP18SessionMusicianNpcMS1_FvvEEclEv
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x3c5d14
     size: 76
     label: _ZNK2al10FunctorV0MIP18SessionMusicianNpcMS1_FvvEE5cloneEv
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x3c5d60
     size: 4
     label: _ZN2al10FunctorV0MIP18SessionMusicianNpcMS1_FvvEED0Ev
-    status: NotDecompiled
+    status: Matching
     lazy: true
 Npc/SessionMusicianWarpAgent.o:
   '.text':
@@ -179648,12 +179648,12 @@ NintendoSDK-NEX/src/Platform/Host/ConfigurationVariable.o:
   - offset: 0x626b3c
     size: 4
     label: _ZN2nn3nex13MemoryManager15BeginProtectionEv
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x626b40
     size: 4
     label: _ZN2nn3nex13MemoryManager13EndProtectionEv
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x626b44
     size: 24
@@ -183270,7 +183270,7 @@ NintendoSDK-NEX/src/Core/WorkerThreads.o:
   - offset: 0x64808c
     size: 8
     label: _ZN2nn3nex11StorageUnit7ReserveEm
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x648094
     size: 8
@@ -224014,7 +224014,7 @@ Library/Audio/System/AudioKeeper.o:
     label:
     - _ZN2al30AudioGeneralPurposeAreaCheckerC1EPKc
     - _ZN2al30AudioGeneralPurposeAreaCheckerC2EPKc
-    status: NotDecompiled
+    status: NonMatchingMajor
   - offset: 0x8085f8
     size: 8
     label: _ZN2al30AudioGeneralPurposeAreaChecker4initEPNS_15AreaObjDirectorE
@@ -224022,7 +224022,7 @@ Library/Audio/System/AudioKeeper.o:
   - offset: 0x808600
     size: 20
     label: _ZN2al30AudioGeneralPurposeAreaChecker5resetEv
-    status: NotDecompiled
+    status: NonMatchingMajor
   - offset: 0x808614
     size: 292
     label: _ZN2al30AudioGeneralPurposeAreaChecker6updateEv
@@ -224034,7 +224034,7 @@ Library/Audio/System/AudioKeeper.o:
   - offset: 0x808830
     size: 72
     label: _ZNK2al30AudioGeneralPurposeAreaChecker8isInAreaEv
-    status: NotDecompiled
+    status: NonMatchingMajor
   - offset: 0x808878
     size: 88
     label: _ZNK2al30AudioGeneralPurposeAreaChecker18isInvaridByOneTimeEv
@@ -224082,7 +224082,7 @@ Library/Audio/System/AudioKeeper.o:
   - offset: 0x808af0
     size: 8
     label: _ZNK2al30AudioGeneralPurposeAreaChecker18getAreaObjDirectorEv
-    status: NotDecompiled
+    status: Matching
     lazy: true
 Library/Audio/System/AudioKeeperFunction.o:
   '.text':
@@ -283768,7 +283768,7 @@ Library/Shader/ForwardRendering/CubeMapUnitInfo.o:
   - offset: 0xa03dfc
     size: 400
     label: _ZN3agl3utl9ParameterIN4sead15FixedSafeStringILi64EEEEC2ERKS4_RKNS2_14SafeStringBaseIcEESB_PNS0_13IParameterObjE
-    status: NotDecompiled
+    status: NonMatchingMajor
     lazy: true
   - offset: 0xa03f8c
     size: 56
@@ -284879,7 +284879,7 @@ Library/Shader/ActorOcclusionKeeper.o:
   - offset: 0xa126dc
     size: 400
     label: _ZN3agl3utl9ParameterIN4sead15FixedSafeStringILi32EEEEC2ERKS4_RKNS2_14SafeStringBaseIcEESB_PNS0_13IParameterObjE
-    status: NotDecompiled
+    status: NonMatchingMajor
     lazy: true
   - offset: 0xa1286c
     size: 136
@@ -326395,7 +326395,7 @@ agl.a:
   - offset: 0xbe122c
     size: 304
     label: _ZN3agl3utl14ParameterCurveILj4EEC2ERKN4sead14SafeStringBaseIcEES7_PNS0_13IParameterObjE
-    status: NotDecompiled
+    status: NonMatchingMajor
     lazy: true
   - offset: 0xbe135c
     size: 20
